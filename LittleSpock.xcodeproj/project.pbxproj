@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041521642274367300A7AF49 /* LittleSpock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0415215A2274367300A7AF49 /* LittleSpock.framework */; };
+		041521692274367300A7AF49 /* LittleSpockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041521682274367300A7AF49 /* LittleSpockTests.swift */; };
+		0415216B2274367300A7AF49 /* LittleSpock.h in Headers */ = {isa = PBXBuildFile; fileRef = 0415215D2274367300A7AF49 /* LittleSpock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0415217B22745B0400A7AF49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415217A22745B0400A7AF49 /* AppDelegate.swift */; };
+		0415217D22745B0400A7AF49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415217C22745B0400A7AF49 /* ViewController.swift */; };
+		0415218022745B0400A7AF49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0415217E22745B0400A7AF49 /* Main.storyboard */; };
+		0415218222745B0700A7AF49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0415218122745B0700A7AF49 /* Assets.xcassets */; };
+		0415218522745B0700A7AF49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0415218322745B0700A7AF49 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		041521652274367300A7AF49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041521512274367300A7AF49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041521592274367300A7AF49;
+			remoteInfo = LittleSpock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0415215A2274367300A7AF49 /* LittleSpock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LittleSpock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0415215D2274367300A7AF49 /* LittleSpock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LittleSpock.h; sourceTree = "<group>"; };
+		0415215E2274367300A7AF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041521632274367300A7AF49 /* LittleSpockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleSpockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041521682274367300A7AF49 /* LittleSpockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleSpockTests.swift; sourceTree = "<group>"; };
+		0415216A2274367300A7AF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0415217822745B0400A7AF49 /* LittleSpockExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleSpockExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0415217A22745B0400A7AF49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0415217C22745B0400A7AF49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0415217F22745B0400A7AF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0415218122745B0700A7AF49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0415218422745B0700A7AF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0415218622745B0700A7AF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041521572274367300A7AF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041521602274367300A7AF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041521642274367300A7AF49 /* LittleSpock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0415217522745B0400A7AF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041521502274367300A7AF49 = {
+			isa = PBXGroup;
+			children = (
+				0415215C2274367300A7AF49 /* LittleSpock */,
+				041521672274367300A7AF49 /* LittleSpockTests */,
+				0415217922745B0400A7AF49 /* LittleSpockExamples */,
+				0415215B2274367300A7AF49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0415215B2274367300A7AF49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0415215A2274367300A7AF49 /* LittleSpock.framework */,
+				041521632274367300A7AF49 /* LittleSpockTests.xctest */,
+				0415217822745B0400A7AF49 /* LittleSpockExamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0415215C2274367300A7AF49 /* LittleSpock */ = {
+			isa = PBXGroup;
+			children = (
+				0415215D2274367300A7AF49 /* LittleSpock.h */,
+				0415215E2274367300A7AF49 /* Info.plist */,
+			);
+			path = LittleSpock;
+			sourceTree = "<group>";
+		};
+		041521672274367300A7AF49 /* LittleSpockTests */ = {
+			isa = PBXGroup;
+			children = (
+				041521682274367300A7AF49 /* LittleSpockTests.swift */,
+				0415216A2274367300A7AF49 /* Info.plist */,
+			);
+			path = LittleSpockTests;
+			sourceTree = "<group>";
+		};
+		0415217922745B0400A7AF49 /* LittleSpockExamples */ = {
+			isa = PBXGroup;
+			children = (
+				0415217A22745B0400A7AF49 /* AppDelegate.swift */,
+				0415217C22745B0400A7AF49 /* ViewController.swift */,
+				0415217E22745B0400A7AF49 /* Main.storyboard */,
+				0415218122745B0700A7AF49 /* Assets.xcassets */,
+				0415218322745B0700A7AF49 /* LaunchScreen.storyboard */,
+				0415218622745B0700A7AF49 /* Info.plist */,
+			);
+			path = LittleSpockExamples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		041521552274367300A7AF49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0415216B2274367300A7AF49 /* LittleSpock.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		041521592274367300A7AF49 /* LittleSpock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0415216E2274367300A7AF49 /* Build configuration list for PBXNativeTarget "LittleSpock" */;
+			buildPhases = (
+				041521552274367300A7AF49 /* Headers */,
+				041521562274367300A7AF49 /* Sources */,
+				041521572274367300A7AF49 /* Frameworks */,
+				041521582274367300A7AF49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleSpock;
+			productName = LittleSpock;
+			productReference = 0415215A2274367300A7AF49 /* LittleSpock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		041521622274367300A7AF49 /* LittleSpockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041521712274367300A7AF49 /* Build configuration list for PBXNativeTarget "LittleSpockTests" */;
+			buildPhases = (
+				0415215F2274367300A7AF49 /* Sources */,
+				041521602274367300A7AF49 /* Frameworks */,
+				041521612274367300A7AF49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041521662274367300A7AF49 /* PBXTargetDependency */,
+			);
+			name = LittleSpockTests;
+			productName = LittleSpockTests;
+			productReference = 041521632274367300A7AF49 /* LittleSpockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0415217722745B0400A7AF49 /* LittleSpockExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0415219222745B0700A7AF49 /* Build configuration list for PBXNativeTarget "LittleSpockExamples" */;
+			buildPhases = (
+				0415217422745B0400A7AF49 /* Sources */,
+				0415217522745B0400A7AF49 /* Frameworks */,
+				0415217622745B0400A7AF49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleSpockExamples;
+			productName = LittleSpockExamples;
+			productReference = 0415217822745B0400A7AF49 /* LittleSpockExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041521512274367300A7AF49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Spock;
+				TargetAttributes = {
+					041521592274367300A7AF49 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					041521622274367300A7AF49 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					0415217722745B0400A7AF49 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 041521542274367300A7AF49 /* Build configuration list for PBXProject "LittleSpock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041521502274367300A7AF49;
+			productRefGroup = 0415215B2274367300A7AF49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041521592274367300A7AF49 /* LittleSpock */,
+				041521622274367300A7AF49 /* LittleSpockTests */,
+				0415217722745B0400A7AF49 /* LittleSpockExamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041521582274367300A7AF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041521612274367300A7AF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0415217622745B0400A7AF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0415218522745B0700A7AF49 /* LaunchScreen.storyboard in Resources */,
+				0415218222745B0700A7AF49 /* Assets.xcassets in Resources */,
+				0415218022745B0400A7AF49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041521562274367300A7AF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0415215F2274367300A7AF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041521692274367300A7AF49 /* LittleSpockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0415217422745B0400A7AF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0415217D22745B0400A7AF49 /* ViewController.swift in Sources */,
+				0415217B22745B0400A7AF49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041521662274367300A7AF49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041521592274367300A7AF49 /* LittleSpock */;
+			targetProxy = 041521652274367300A7AF49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0415217E22745B0400A7AF49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0415217F22745B0400A7AF49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0415218322745B0700A7AF49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0415218422745B0700A7AF49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0415216C2274367300A7AF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0415216D2274367300A7AF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0415216F2274367300A7AF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 26WBMBDFCZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LittleSpock/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spock.LittleSpock;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		041521702274367300A7AF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 26WBMBDFCZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LittleSpock/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spock.LittleSpock;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		041521722274367300A7AF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26WBMBDFCZ;
+				INFOPLIST_FILE = LittleSpockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spock.LittleSpockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		041521732274367300A7AF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26WBMBDFCZ;
+				INFOPLIST_FILE = LittleSpockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spock.LittleSpockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0415219322745B0700A7AF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26WBMBDFCZ;
+				INFOPLIST_FILE = LittleSpockExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spock.LittleSpockExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0415219422745B0700A7AF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26WBMBDFCZ;
+				INFOPLIST_FILE = LittleSpockExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spock.LittleSpockExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041521542274367300A7AF49 /* Build configuration list for PBXProject "LittleSpock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0415216C2274367300A7AF49 /* Debug */,
+				0415216D2274367300A7AF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0415216E2274367300A7AF49 /* Build configuration list for PBXNativeTarget "LittleSpock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0415216F2274367300A7AF49 /* Debug */,
+				041521702274367300A7AF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041521712274367300A7AF49 /* Build configuration list for PBXNativeTarget "LittleSpockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041521722274367300A7AF49 /* Debug */,
+				041521732274367300A7AF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0415219222745B0700A7AF49 /* Build configuration list for PBXNativeTarget "LittleSpockExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0415219322745B0700A7AF49 /* Debug */,
+				0415219422745B0700A7AF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041521512274367300A7AF49 /* Project object */;
+}
