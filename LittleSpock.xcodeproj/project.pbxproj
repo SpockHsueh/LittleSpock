@@ -15,6 +15,7 @@
 		0415218022745B0400A7AF49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0415217E22745B0400A7AF49 /* Main.storyboard */; };
 		0415218222745B0700A7AF49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0415218122745B0700A7AF49 /* Assets.xcassets */; };
 		0415218522745B0700A7AF49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0415218322745B0700A7AF49 /* LaunchScreen.storyboard */; };
+		041521992274C44B00A7AF49 /* LittleSpock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041521982274C44B00A7AF49 /* LittleSpock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		0415218122745B0700A7AF49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0415218422745B0700A7AF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0415218622745B0700A7AF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041521982274C44B00A7AF49 /* LittleSpock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleSpock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				0415215D2274367300A7AF49 /* LittleSpock.h */,
 				0415215E2274367300A7AF49 /* Info.plist */,
+				041521982274C44B00A7AF49 /* LittleSpock.swift */,
 			);
 			path = LittleSpock;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				TargetAttributes = {
 					041521592274367300A7AF49 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					041521622274367300A7AF49 = {
 						CreatedOnToolsVersion = 10.1;
@@ -260,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041521992274C44B00A7AF49 /* LittleSpock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +440,7 @@
 		0415216F2274367300A7AF49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -452,6 +458,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.spock.LittleSpock;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,6 +467,7 @@
 		041521702274367300A7AF49 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -485,6 +493,7 @@
 		041521722274367300A7AF49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26WBMBDFCZ;
 				INFOPLIST_FILE = LittleSpockTests/Info.plist;
@@ -503,6 +512,7 @@
 		041521732274367300A7AF49 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26WBMBDFCZ;
 				INFOPLIST_FILE = LittleSpockTests/Info.plist;
