@@ -1,0 +1,25 @@
+    1|       |//
+    2|       |//  LittleSpock.swift
+    3|       |//  LittleSpock
+    4|       |//
+    5|       |//  Created by Spock on 2019/4/28.
+    6|       |//  Copyright © 2019 Spock. All rights reserved.
+    7|       |//
+    8|       |
+    9|       |import Foundation
+   10|       |
+   11|       |public final class LittleSpock {
+   12|       |    let name = "LittleSpock"
+   13|       |    
+   14|      1|    public func add(a: Int, b: Int) -> Int {
+   15|      1|        return a + b
+   16|      1|    }
+   17|       |    
+   18|      1|    public func sub(a: Int, b: Int) -> Int {
+   19|      1|        return a - b
+   20|      1|    }
+   21|       |}
+   22|       |
+   23|       |
+   24|       |
+
