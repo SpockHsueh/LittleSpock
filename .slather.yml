@@ -1,0 +1,6 @@
+coverage_service: cobertura_xml
+xcodeproj: LittleSpock.xcodeproj
+scheme: LittleSpock
+output_directory: reports
+ignore:
+  - LittleSpock/*
