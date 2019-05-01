@@ -3,4 +3,4 @@ xcodeproj: LittleSpock.xcodeproj
 scheme: LittleSpock
 output_directory: reports
 ignore:
-  - LittleSpock/*
+  - LittleSpockTests/*
