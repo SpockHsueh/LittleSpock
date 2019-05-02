@@ -1,6 +1,8 @@
 coverage_service: cobertura_xml
 xcodeproj: LittleSpock.xcodeproj
 scheme: LittleSpock
+configuration: TestedConfiguration
+source_directory: LittleSpock
 output_directory: reports
 ignore:
   - LittleSpockTests/*
