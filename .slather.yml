@@ -4,3 +4,4 @@ scheme: LittleSpock
 output_directory: reports
 ignore:
   - LittleSpockTests/*
+
