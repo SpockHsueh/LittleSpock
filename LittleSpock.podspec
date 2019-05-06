@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
 # 1
-s.platform = :ios
-s.ios.deployment_target = '6.0'
+s.platform = :ios, "11.0"
+s.ios.deployment_target = '12.0'
 s.name = "LittleSpock"
 s.summary = "A simple pod for demonstration purposes."
 s.requires_arc = true
@@ -28,7 +28,8 @@ s.source = { :git => "https://github.com/SpockHsueh/LittleSpock.git", :tag => "0
 # s.dependency 'MBProgressHUD', '~> 1.1.0'
 
 # 8
-s.source_files = "SPChoicePopup/**/*.{h,m,swift}"
+s.source_files = "LittleSpock/**/*.{h,m,swift}"
 
+s.swift_version = "4.2"
 
 end
