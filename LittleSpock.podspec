@@ -8,7 +8,7 @@ s.summary = "A simple pod for demonstration purposes."
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = "0.1.1"
 
 # 3
 s.license = "MIT"
@@ -20,7 +20,7 @@ s.author = { "Spock Hsueh" => "Spock.hsu@gmail.com" }
 s.homepage = "https://github.com/SpockHsueh/LittleSpock.git"
 
 # 6
-s.source = { :git => "https://github.com/SpockHsueh/LittleSpock.git", :tag => "0.1.0"}
+s.source = { :git => "https://github.com/SpockHsueh/LittleSpock.git", :tag => "0.1.1"}
 
 # 7
 # s.framework = "UIKit"

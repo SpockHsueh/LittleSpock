@@ -20,6 +20,11 @@ public final class LittleSpock {
     public func sub(a: Int, b: Int) -> Int {
         return a - b
     }
+    
+    public func times(a: Int, b: Int) -> Int {
+        return a * b
+    }
+    
 }
 
 

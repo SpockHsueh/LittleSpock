@@ -30,4 +30,9 @@ class LittleSpockTests: XCTestCase {
     func testSub() {
         XCTAssertEqual(littleSpock.sub(a: 2, b: 1), 1)
     }
+    
+    func testTimes () {
+        XCTAssertEqual(littleSpock.times(a: 2, b: 1), 2)
+
+    }
 }
