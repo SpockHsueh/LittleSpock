@@ -13,15 +13,15 @@ import Foundation
     
     public override init() {}
     
-    public func add(a: Int, b: Int) -> Int {
+    @objc public func add(a: Int, b: Int) -> Int {
         return a + b
     }
     
-    public func sub(a: Int, b: Int) -> Int {
+    @objc public func sub(a: Int, b: Int) -> Int {
         return a - b
     }
     
-    public func times(a: Int, b: Int) -> Int {
+    @objc public func times(a: Int, b: Int) -> Int {
         return a * b
     }
     
