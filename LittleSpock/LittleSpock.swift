@@ -8,10 +8,10 @@
 
 import Foundation
 
-public final class LittleSpock {
+@objc public final class LittleSpock: NSObject {
     let name = "LittleSpock"
     
-    public init() {}
+    public override init() {}
     
     public func add(a: Int, b: Int) -> Int {
         return a + b
