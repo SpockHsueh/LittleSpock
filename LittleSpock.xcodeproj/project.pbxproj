@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040798D522A61ECD0055482B /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441E8B022A55F6600D43E4A /* MyViewController.swift */; };
+		040798D722A621210055482B /* LittleSpock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0415215A2274367300A7AF49 /* LittleSpock.framework */; };
+		040798D822A6A6610055482B /* LittleSpockStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0441E8B422A568D300D43E4A /* LittleSpockStoryboard.storyboard */; };
+		040798D922A6A6AE0055482B /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0441E8B022A55F6600D43E4A /* MyViewController.swift */; };
 		041521642274367300A7AF49 /* LittleSpock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0415215A2274367300A7AF49 /* LittleSpock.framework */; };
 		041521692274367300A7AF49 /* LittleSpockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041521682274367300A7AF49 /* LittleSpockTests.swift */; };
 		0415216B2274367300A7AF49 /* LittleSpock.h in Headers */ = {isa = PBXBuildFile; fileRef = 0415215D2274367300A7AF49 /* LittleSpock.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,6 +20,7 @@
 		0415218222745B0700A7AF49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0415218122745B0700A7AF49 /* Assets.xcassets */; };
 		0415218522745B0700A7AF49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0415218322745B0700A7AF49 /* LaunchScreen.storyboard */; };
 		041521992274C44B00A7AF49 /* LittleSpock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041521982274C44B00A7AF49 /* LittleSpock.swift */; };
+		0441E8B522A568D300D43E4A /* LittleSpockStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0441E8B422A568D300D43E4A /* LittleSpockStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +48,8 @@
 		0415218422745B0700A7AF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0415218622745B0700A7AF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041521982274C44B00A7AF49 /* LittleSpock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleSpock.swift; sourceTree = "<group>"; };
+		0441E8B022A55F6600D43E4A /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		0441E8B422A568D300D43E4A /* LittleSpockStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LittleSpockStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040798D722A621210055482B /* LittleSpock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,7 @@
 				041521672274367300A7AF49 /* LittleSpockTests */,
 				0415217922745B0400A7AF49 /* LittleSpockExamples */,
 				0415215B2274367300A7AF49 /* Products */,
+				0441E8B222A5666300D43E4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +106,8 @@
 				0415215D2274367300A7AF49 /* LittleSpock.h */,
 				0415215E2274367300A7AF49 /* Info.plist */,
 				041521982274C44B00A7AF49 /* LittleSpock.swift */,
+				0441E8B022A55F6600D43E4A /* MyViewController.swift */,
+				0441E8B422A568D300D43E4A /* LittleSpockStoryboard.storyboard */,
 			);
 			path = LittleSpock;
 			sourceTree = "<group>";
@@ -121,6 +132,13 @@
 				0415218622745B0700A7AF49 /* Info.plist */,
 			);
 			path = LittleSpockExamples;
+			sourceTree = "<group>";
+		};
+		0441E8B222A5666300D43E4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0441E8B522A568D300D43E4A /* LittleSpockStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040798D822A6A6610055482B /* LittleSpockStoryboard.storyboard in Resources */,
 				0415218522745B0700A7AF49 /* LaunchScreen.storyboard in Resources */,
 				0415218222745B0700A7AF49 /* Assets.xcassets in Resources */,
 				0415218022745B0400A7AF49 /* Main.storyboard in Resources */,
@@ -264,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040798D522A61ECD0055482B /* MyViewController.swift in Sources */,
 				041521992274C44B00A7AF49 /* LittleSpock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0415217D22745B0400A7AF49 /* ViewController.swift in Sources */,
+				040798D922A6A6AE0055482B /* MyViewController.swift in Sources */,
 				0415217B22745B0400A7AF49 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,10 +462,7 @@
 		0415216F2274367300A7AF49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					armv7s,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -476,10 +495,7 @@
 		041521702274367300A7AF49 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					armv7s,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;

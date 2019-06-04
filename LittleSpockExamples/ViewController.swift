@@ -7,14 +7,21 @@
 //
 
 import UIKit
+import LittleSpock
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        let littleSpock = LittleSpock()
+        let myVC = MyViewController()
+        
+        let testVC = myVC.presentFirstViewControllerOn()
+        self.present(testVC, animated: true, completion: nil)
 
-
+    }
 }
 
